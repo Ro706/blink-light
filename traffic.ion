@@ -1,0 +1,27 @@
+// C++ code
+//
+int link13 =13;
+int link12 =12;
+int link11 =11;
+void setup()
+{
+  pinMode(link13, OUTPUT);
+  pinMode(link12, OUTPUT);
+  pinMode(link11, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(link13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(link13, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(link12, LOW);
+  delay(1500); // Wait for 1000 millisecond(s)
+  digitalWrite(link12, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(link11, LOW);
+  delay(2500); // Wait for 1000 millisecond(s)
+  digitalWrite(link11, HIGH);
+  delay(2000); // Wait for 1000 millisecond(s)
+}
